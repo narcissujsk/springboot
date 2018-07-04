@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorld {
 
-    @Value("$(name)")
-    private String name;
-    @Value("$(description)")
-    private String description;
+   @Value("${name}")
+   private String name;
+   @Value("${description}")
+   private String description;
 
     @RequestMapping("/hello")
     public String hello() {
-        return "Hello Spring Boot!111   </br>"+name+"   "+description;
+        return "Hello Spring Boot!111   </br>"+name+description;
     }
 }
