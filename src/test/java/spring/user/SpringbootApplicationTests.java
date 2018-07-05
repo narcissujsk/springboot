@@ -1,4 +1,4 @@
-package spring.demo;
+package spring.user;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
