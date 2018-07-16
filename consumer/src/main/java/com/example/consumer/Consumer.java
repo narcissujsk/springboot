@@ -14,7 +14,7 @@ public class Consumer {
 
     @RequestMapping(method = RequestMethod.GET,value = "/usersget")
     public String get() {
-        return rest.getForEntity("http://PRIVIDER-USER/users/list",String.class).getBody();
+        return rest.getForEntity("http://privider-user/users/list",String.class).getBody();
     }
 
 
