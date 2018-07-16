@@ -16,7 +16,9 @@ import org.apache.ibatis.type.JdbcType;
 import spring.user.bean.UserBean;
 
 @Mapper
+
 public interface UserMapper {
+
 
     /**
      * 获取所有用户
