@@ -10,7 +10,7 @@ spring:
           username: narcissujsk
           password: 385152jsk
 server:
-  port: 7001
+  port: 4600
 
 
 eureka:
