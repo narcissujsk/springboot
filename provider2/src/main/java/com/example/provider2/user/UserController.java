@@ -28,6 +28,7 @@ public class UserController {
     @ResponseBody
     public List<UserBean> getUsers() {
 
+
         List<UserBean> userList = userMapper.getUsers();
         logger.info(userList+"");
      //   logger.info("client.getLastSuccessfulHeartbeatTimePeriod() :"+cient.getLastSuccessfulHeartbeatTimePeriod()+"");
