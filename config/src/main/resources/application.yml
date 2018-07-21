@@ -5,10 +5,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/narcissujsk/springboot/
-          search-paths: config-repo
+          uri: https://github.com/narcissujsk/myspringcloudconfig
+          search-paths: myconfigpath
           username: narcissujsk
           password: 385152jsk
+      label: master
 server:
   port: 4600
 
